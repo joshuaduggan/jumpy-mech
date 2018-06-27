@@ -1,0 +1,26 @@
+grounded
+  gravity 1
+
+grounded jump pressed
+  gravity 0.3
+  jump force
+
+airborne jump held and not released since grounded and less than x time
+  gravity 0.3
+  
+going up
+  airborne jump pressed since grounded and more than or equal to x time
+  or
+  airborne jump released
+  or
+  airborne and jump pressed since release since airborne
+    gravity 0.6
+
+going down
+  airborne velocity less than max
+    gravity high
+  airborne velocity more or equal to max
+    gravity 0
+    // down component of velocity should be max but omited for complexity
+  
+airborne jum 
