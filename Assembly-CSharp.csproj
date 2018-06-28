@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{C39A2FDE-0D8D-7EF0-B227-79F8955DBF0A}</ProjectGuid>
+    <ProjectGuid>{38CEBE54-6E4E-D683-372F-FDF023F67AB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,12 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="assets\CameraFollow.cs" />
     <Compile Include="assets\PlayerBehaviour.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/jdugg/Documents/dev/Jumpy Mech/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/jdugg/Documents/dev/jumpy-mech/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/jdugg/Documents/dev/Jumpy Mech/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/jdugg/Documents/dev/jumpy-mech/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
